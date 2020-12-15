@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class messenger {
+public class MessengerInfo {
     private int postID;
     private int ownerID;
     private int fromID;

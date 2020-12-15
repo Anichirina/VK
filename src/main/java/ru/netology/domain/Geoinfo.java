@@ -1,23 +1,24 @@
 package ru.netology.domain;
 
-public class geo {
+public class Geoinfo {
     private String type;
     private String coordinates;
-    private Place place;
+    private PlaceInfo place;
 
     public String getType() {
         return type;
+
     }
 
     public void setType(String type) {
         this.type = type;
     }
 
-    public Place getPlace() {
+    public PlaceInfo getPlace() {
         return place;
     }
 
-    public void setPlace(Place place) {
+    public void setPlace(PlaceInfo place) {
         this.place = place;
     }
 
