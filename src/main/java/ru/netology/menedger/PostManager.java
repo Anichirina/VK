@@ -1,4 +1,6 @@
-package ru.netology.domain;
+package ru.netology.menedger;
+
+import ru.netology.domain.Post;
 
 public class PostManager {
            private Post[] post;
