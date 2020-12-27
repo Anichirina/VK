@@ -1,4 +1,4 @@
-package ru.netology.domain;
+package ru.netology.menedger;
 
 public class MessengerInfo {
     private int postID;
