@@ -3,21 +3,21 @@ package ru.netology.domain;
 public class Post {
 private int id;
 private int  ownerId;
-private int frontId;
-private  int createdId;
-private  int dateInfo;
+private FromId frontId;
+private  CreatedBy createdId;
+private  DataInfo dateInfo;
 private String textInfo;
 private int replyOwnerId;
 private  int replyPostId;
 private int friendsOnly;
-private String commentsInfo;
-private String copyrightInfo;
-private String likeInfo;
-private String repostInfo;
-private String viewInfo;
-private String postTypeInfo;
-private String postSourceInfo;
-private String geoInfo;
+private CommensInfo commentsInfo;
+private CopyrightInfo copyrightInfo;
+private LikeInfo likeInfo;
+private RepostInfo repostInfo;
+private VeiwInfo viewInfo;
+private PostType postTypeInfo;
+private PostInfoDemo postSourceInfo;
+private Geoinfo geoInfo;
 private int singerIdInfo;
 private int canPinInfo;
 private int canDeleteInfo;
@@ -25,7 +25,7 @@ private int canEditInfo;
 private int isPinnedInfo;
 private int markedAsAdsInfo;
 private String isFavoritInfo;
-private String donutInfo;
+private DonutsInfo donutInfo;
 private int postponedIdInfo;
 
     public int getId() {
@@ -44,27 +44,27 @@ private int postponedIdInfo;
         this.ownerId = ownerId;
     }
 
-    public int getFrontId() {
+    public FromId getFrontId() {
         return frontId;
     }
 
-    public void setFrontId(int frontId) {
+    public void setFrontId(FromId frontId) {
         this.frontId = frontId;
     }
 
-    public int getCreatedId() {
+    public CreatedBy getCreatedId() {
         return createdId;
     }
 
-    public void setCreatedId(int createdId) {
+    public void setCreatedId(CreatedBy createdId) {
         this.createdId = createdId;
     }
 
-    public int getDateInfo() {
+    public DataInfo getDateInfo() {
         return dateInfo;
     }
 
-    public void setDateInfo(int dateInfo) {
+    public void setDateInfo(DataInfo dateInfo) {
         this.dateInfo = dateInfo;
     }
 
@@ -100,67 +100,67 @@ private int postponedIdInfo;
         this.friendsOnly = friendsOnly;
     }
 
-    public String getCommentsInfo() {
+    public CommensInfo getCommentsInfo() {
         return commentsInfo;
     }
 
-    public void setCommentsInfo(String commentsInfo) {
+    public void setCommentsInfo(CommensInfo commentsInfo) {
         this.commentsInfo = commentsInfo;
     }
 
-    public String getCopyrightInfo() {
+    public CopyrightInfo getCopyrightInfo() {
         return copyrightInfo;
     }
 
-    public void setCopyrightInfo(String copyrightInfo) {
+    public void setCopyrightInfo(CopyrightInfo copyrightInfo) {
         this.copyrightInfo = copyrightInfo;
     }
 
-    public String getLikeInfo() {
+    public LikeInfo getLikeInfo() {
         return likeInfo;
     }
 
-    public void setLikeInfo(String likeInfo) {
+    public void setLikeInfo(LikeInfo likeInfo) {
         this.likeInfo = likeInfo;
     }
 
-    public String getRepostInfo() {
+    public RepostInfo getRepostInfo() {
         return repostInfo;
     }
 
-    public void setRepostInfo(String repostInfo) {
+    public void setRepostInfo(RepostInfo repostInfo) {
         this.repostInfo = repostInfo;
     }
 
-    public String getViewInfo() {
+    public VeiwInfo getViewInfo() {
         return viewInfo;
     }
 
-    public void setViewInfo(String viewInfo) {
+    public void setViewInfo(VeiwInfo viewInfo) {
         this.viewInfo = viewInfo;
     }
 
-    public String getPostTypeInfo() {
+    public PostType getPostTypeInfo() {
         return postTypeInfo;
     }
 
-    public void setPostTypeInfo(String postTypeInfo) {
+    public void setPostTypeInfo(PostType postTypeInfo) {
         this.postTypeInfo = postTypeInfo;
     }
 
-    public String getPostSourceInfo() {
+    public PostInfoDemo getPostSourceInfo() {
         return postSourceInfo;
     }
 
-    public void setPostSourceInfo(String postSourceInfo) {
+    public void setPostSourceInfo(PostInfoDemo postSourceInfo) {
         this.postSourceInfo = postSourceInfo;
     }
 
-    public String getGeoInfo() {
+    public Geoinfo getGeoInfo() {
         return geoInfo;
     }
 
-    public void setGeoInfo(String geoInfo) {
+    public void setGeoInfo(Geoinfo geoInfo) {
         this.geoInfo = geoInfo;
     }
 
@@ -220,11 +220,11 @@ private int postponedIdInfo;
         this.isFavoritInfo = isFavoritInfo;
     }
 
-    public String getDonutInfo() {
+    public DonutsInfo getDonutInfo() {
         return donutInfo;
     }
 
-    public void setDonutInfo(String donutInfo) {
+    public void setDonutInfo(DonutsInfo donutInfo) {
         this.donutInfo = donutInfo;
     }
 
