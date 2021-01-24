@@ -1,14 +1,25 @@
 package ru.netology.menedger;
 
-import ru.netology.domain.Post;
-
 public class PostManager {
-           private Post[] post;
+    private Post[] post;
 
-        public String generateBlock() {
-            //TODO:add logic
-            return null;
-        }
+    public Post[] searchPost(int ownerId, String domain, String query, int ownersOnly, int count, int offset)
+
+    public String generateBlock() {
+        //TODO:add logic
+        return null;
     }
+
+    public void deletePost(int ownerId, int postId) {
+    }
+
+    public Post[] getPosts() {
+        return posts;
+    }
+
+    
+    private class Post {
+    }
+}
 
 
